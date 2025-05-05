@@ -1,0 +1,63 @@
+﻿@using Classes_Compartilhadas
+@using Classes_Compartilhadas.Models
+@model Vendedor
+
+@{
+    ViewData["Title"] = "Registro de Vendedor";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded-lg border-0">
+                <div class="card-body p-5">
+                    <h2 class="text-center text-primary mb-4">Cadastro de Vendedor</h2>
+                    <form asp-action="Registrar">
+                        <div asp-validation-summary="All" class="text-danger mb-4"></div>
+
+                        <div class="form-group">
+                            <label asp-for="Nome" class="control-label font-weight-bold text-muted"></label>
+                            <input asp-for="Nome" class="form-control form-control-lg border-0 border-bottom border-primary" placeholder="Nome Completo" />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="DataNascimento" class="control-label font-weight-bold text-muted"></label>
+                            <input asp-for="DataNascimento" class="form-control form-control-lg border-0 border-bottom border-primary" type="date" />
+                            <span asp-validation-for="DataNascimento" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label font-weight-bold text-muted"></label>
+                            <input asp-for="Email" class="form-control form-control-lg border-0 border-bottom border-primary" placeholder="Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="EmailConformacao" class="control-label font-weight-bold text-muted"></label>
+                            <input asp-for="EmailConformacao" class="form-control form-control-lg border-0 border-bottom border-primary" placeholder="Confirme seu Email" />
+                            <span asp-validation-for="EmailConformacao" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Senha" class="control-label font-weight-bold text-muted"></label>
+                            <input asp-for="Senha" class="form-control form-control-lg border-0 border-bottom border-primary" type="password" placeholder="Senha" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block rounded-pill">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

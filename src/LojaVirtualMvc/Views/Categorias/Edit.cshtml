@@ -1,0 +1,54 @@
+﻿@using Classes_Compartilhadas.Models
+@model Categoria
+
+@{
+    ViewData["Title"] = "Editar Categoria";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-lg rounded-4">
+                <div class="card-header bg-primary text-white rounded-top-4 py-3">
+                    <h3 class="mb-0">
+                        <i class="bi bi-pencil-square me-2"></i>Editar Categoria
+                    </h3>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Edit" autocomplete="off">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger small"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Nome" class="form-label fw-semibold"></label>
+                            <input asp-for="Nome" class="form-control rounded-3 shadow-sm" />
+                            <span asp-validation-for="Nome" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Descricao" class="form-label fw-semibold"></label>
+                            <input asp-for="Descricao" class="form-control rounded-3 shadow-sm" />
+                            <span asp-validation-for="Descricao" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-outline-secondary rounded-pill">
+                                <i class="bi bi-arrow-left me-1"></i> Voltar
+                            </a>
+                            <button type="submit" class="btn btn-success rounded-pill">
+                                <i class="bi bi-check-circle me-1"></i> Salvar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

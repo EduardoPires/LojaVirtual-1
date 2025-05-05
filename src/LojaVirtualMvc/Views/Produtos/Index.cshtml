@@ -1,0 +1,32 @@
+﻿@using System.Security.Claims
+@using Classes_Compartilhadas.Models
+@model IEnumerable<Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Produtos</h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" >
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <a href="Produtos/Details?id=@item.Id" class="text-decoration-none text-dark">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@item.Imagem" class="card-img-top img-fluid" alt="@item.Descricao" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Descricao</h5>
+                            <p class="card-text text-muted mb-1">Categoria: <strong>@item.Categoria.Nome</strong></p>
+                            <p class="card-text">Preço: <strong>R$ @item.Preco.ToString("N2")</strong></p>
+                            <p class="card-text">Estoque: <strong>@item.Estoque</strong></p>
+                        </div>
+                    </div>
+                </a>                
+            </div>
+        }
+    </div>
+</div>

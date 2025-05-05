@@ -1,0 +1,50 @@
+﻿@using Classes_Compartilhadas.Models
+@model Categoria
+
+@{
+    ViewData["Title"] = "Excluir Categoria";
+}
+
+<div class="container py-5">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+
+    <div class="card border-0 shadow-lg rounded-4">
+        <div class="card-header bg-danger text-white rounded-top-4 py-3">
+            <h3 class="mb-0">
+                <i class="bi bi-exclamation-triangle me-2"></i>Confirmar Exclusão
+            </h3>
+        </div>
+
+        <div class="card-body p-4">
+            <h5 class="mb-4">Tem certeza que deseja excluir a seguinte categoria?</h5>
+
+            <dl class="row mb-4">
+                <dt class="col-sm-3 fw-bold">Nome</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Nome)</dd>
+
+                <dt class="col-sm-3 fw-bold">Descrição</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Descricao)</dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary rounded-pill">
+                        <i class="bi bi-arrow-left"></i> Cancelar
+                    </a>
+                    <button type="submit" class="btn btn-danger rounded-pill">
+                        <i class="bi bi-trash3"></i> Excluir
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LojaVirtualMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LojaVirtualMvc.qq2k7ndbfp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\0bfeb718-f811-456c-abb0-5003922bdd5e.jpg",
+      "PackagePath": "staticwebassets\\images\\0bfeb718-f811-456c-abb0-5003922bdd5e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\47f2a71e-cd32-456c-8562-308d75404b0c.jpg",
+      "PackagePath": "staticwebassets\\images\\47f2a71e-cd32-456c-8562-308d75404b0c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\743a0d94-176e-4c62-b3b7-f4d92038a034.jpg",
+      "PackagePath": "staticwebassets\\images\\743a0d94-176e-4c62-b3b7-f4d92038a034.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\85029d84-afc0-4a56-814d-c5a8ee9dfa0f.jpg",
+      "PackagePath": "staticwebassets\\images\\85029d84-afc0-4a56-814d-c5a8ee9dfa0f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\9a25de73-872c-4996-9675-154eaf26079c.jpg",
+      "PackagePath": "staticwebassets\\images\\9a25de73-872c-4996-9675-154eaf26079c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\9ac73bc6-df3c-49b3-9c0f-6c994a59ba05.jpg",
+      "PackagePath": "staticwebassets\\images\\9ac73bc6-df3c-49b3-9c0f-6c994a59ba05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\cb_1000.jpg",
+      "PackagePath": "staticwebassets\\images\\cb_1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\cc09bbbf-212d-456f-af57-10b94fcfa306.jpg",
+      "PackagePath": "staticwebassets\\images\\cc09bbbf-212d-456f-af57-10b94fcfa306.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\d20.jpg",
+      "PackagePath": "staticwebassets\\images\\d20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\harley.jpg",
+      "PackagePath": "staticwebassets\\images\\harley.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\opala.jpg",
+      "PackagePath": "staticwebassets\\images\\opala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\opala2.jpg",
+      "PackagePath": "staticwebassets\\images\\opala2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\silverado.jpg",
+      "PackagePath": "staticwebassets\\images\\silverado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\voyage1.jpg",
+      "PackagePath": "staticwebassets\\images\\voyage1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\voyage2.jpg",
+      "PackagePath": "staticwebassets\\images\\voyage2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\images\\voyage3.jpg",
+      "PackagePath": "staticwebassets\\images\\voyage3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jose ricardo\\projeto\\LojaVirtual\\src\\LojaVirtualMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LojaVirtualMvc.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LojaVirtualMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LojaVirtualMvc.props",
+      "PackagePath": "build\\LojaVirtualMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LojaVirtualMvc.props",
+      "PackagePath": "buildMultiTargeting\\LojaVirtualMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LojaVirtualMvc.props",
+      "PackagePath": "buildTransitive\\LojaVirtualMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

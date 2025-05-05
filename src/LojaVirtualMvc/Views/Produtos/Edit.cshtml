@@ -1,0 +1,81 @@
+﻿@using Classes_Compartilhadas.Models
+@model Produto
+
+@{
+    ViewData["Title"] = "Editar Produto";
+}
+
+<div class="container py-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-primary text-white rounded-top-4 py-3">
+            <h3 class="mb-0">
+                <i class="bi bi-pencil-square me-2"></i> Editar Produto
+            </h3>
+        </div>
+
+        <div class="card-body p-5">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <input type="hidden" asp-for="Id" value="@Model.Id" />
+                <input type="hidden" asp-for="VendedorId" value="@Model.VendedorId" />
+                <input type="hidden" asp-for="Imagem" value="@Model.Imagem" />
+
+                
+
+                <div style="width 100px">
+                    <img src="@Model.Imagem"  alt="Imagem do Produto" />
+                </div>
+                
+
+                <div class="mb-4">
+                    <label asp-for="ImagemUpload" class="form-label fw-semibold">Imagem do Produto</label>
+                    <input asp-for="ImagemUpload" class="form-control rounded-3 shadow-sm" type="file" />
+                    <span asp-validation-for="ImagemUpload" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Descricao" class="form-label fw-semibold">Descrição</label>
+                    <input asp-for="Descricao" class="form-control rounded-3 shadow-sm" placeholder="Digite a descrição do produto" />
+                    <span asp-validation-for="Descricao" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Preco" class="form-label fw-semibold">Preço</label>
+                    <input asp-for="Preco" class="form-control rounded-3 shadow-sm" placeholder="Digite o preço" />
+                    <span asp-validation-for="Preco" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Estoque" class="form-label fw-semibold">Estoque</label>
+                    <input asp-for="Estoque" class="form-control rounded-3 shadow-sm" placeholder="Digite a quantidade em estoque" />
+                    <span asp-validation-for="Estoque" class="text-danger small"></span>
+                </div>
+
+
+                <div class="mb-4">
+                    <label asp-for="CategoriaId" class="form-label fw-semibold">Categoria</label>
+                    <select asp-for="CategoriaId" class="form-control rounded-3 shadow-sm" asp-items="ViewBag.CategoriaId">
+                        <option value="">Selecione a categoria</option>
+                    </select>
+                    <span asp-validation-for="CategoriaId" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="MyProducts" class="btn btn-outline-secondary rounded-pill">
+                        <i class="bi bi-arrow-left me-1"></i> Voltar
+                    </a>
+                    <button type="submit" class="btn btn-success rounded-pill">
+                        <i class="bi bi-check-circle me-1"></i> Salvar Alterações
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

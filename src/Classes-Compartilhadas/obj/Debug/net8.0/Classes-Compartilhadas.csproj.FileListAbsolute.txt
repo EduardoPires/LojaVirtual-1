@@ -1,0 +1,14 @@
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\bin\Debug\net8.0\Classes-Compartilhadas.deps.json
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\bin\Debug\net8.0\Classes-Compartilhadas.runtimeconfig.json
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\bin\Debug\net8.0\Classes-Compartilhadas.dll
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\bin\Debug\net8.0\Classes-Compartilhadas.pdb
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.csproj.AssemblyReference.cache
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.AssemblyInfoInputs.cache
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.AssemblyInfo.cs
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.csproj.CoreCompileInputs.cache
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.dll
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\refint\Classes-Compartilhadas.dll
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.pdb
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\Classes-Compartilhadas.genruntimeconfig.cache
+C:\Users\jose ricardo\projeto\LojaVirtual\src\Classes-Compartilhadas\obj\Debug\net8.0\ref\Classes-Compartilhadas.dll

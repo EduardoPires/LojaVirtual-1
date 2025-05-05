@@ -1,0 +1,89 @@
+﻿@using System.Security.Claims
+@using Classes_Compartilhadas.Models
+@model Produto
+
+@{
+    ViewData["Title"] = "Detalhes do Produto";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-1 rounded-4 overflow-visible">
+
+                <img src="@Model.Imagem"  style="object-fit: cover; height: 600px; padding : 40px 100px" alt="Imagem do Produto" />
+
+
+                <div class="card-body p-5">
+                    <h1 class="card-title text-center mb-4">@Html.DisplayFor(model => model.Descricao)</h1>
+
+                    <h2 class="text-primary text-center mb-4" style="font-weight: bold;">
+                        R$ @Model.Preco.ToString("N2")
+                    </h2>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5>Categoria:</h5>
+                            <p class="text-muted">@Html.DisplayFor(model => model.Categoria.Nome)</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Estoque disponível:</h5>
+                            <p class="text-muted">@Html.DisplayFor(model => model.Estoque)</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="mb-4">
+                        <h4>Descrição detalhada</h4>
+                        <p class="text-muted" style="font-size: 1.1rem;">@Html.DisplayFor(model => model.Descricao)</p>
+                    </div>
+
+                    <div class="card mt-5 shadow-sm border-0 rounded-4">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4 text-center">Informações do Vendedor</h4>
+
+                            <dl class="row">
+                                <dt class="col-sm-4">Nome:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Vendedor.Nome)</dd>
+
+                                <dt class="col-sm-4">Data de nascimento:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Vendedor.DataNascimento)</dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-footer bg-white text-center py-4">
+                    @{
+                        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                    }
+
+                    @if (Model.VendedorId != null && Model.Vendedor.Id.ToString() == userId)
+                    {
+                        <a asp-action="MyProducts" class="btn btn-secondary ">
+                            <i class="bi bi-arrow-left"></i> Voltar para a Lista
+                        </a>
+
+                        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning ">
+                            <i class="bi bi-pencil-square"></i> Editar
+                        </a>
+
+                        <a asp-action="Delete" asp-route-id="@Model?.Id" class="btn btn-danger">
+                            <i class="bi bi-pencil-square"></i> Deletar 
+                        </a>
+                        
+                    }else
+                    {
+                        <a asp-action="Index" class="btn btn-secondary px-4 py-2">
+                            <i class="bi bi-arrow-left"></i> Voltar para a Lista
+                        </a>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

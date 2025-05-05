@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div class="row shadow-lg rounded-4 overflow-hidden w-75" style="max-width: 900px;">
+
+        <!-- Lado esquerdo com texto e ilustração -->
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-white p-4" style="background-color:#8ce2ff">
+            <img src="https://images.vexels.com/media/users/3/200098/isolated/preview/7ad7c76da9a0cd7d2b01b64b2590617b-icone-do-carrinho-de-compras-icone-do-carrinho-de-compras.png" alt="Login" class="mb-4" style="width: 150px;" />
+            <h3 class="text-center mb-4 font-weight-bold">Seja bem-vindo!</h3>
+            <p class="text-center">
+                Acesse e aproveite todos nossos anuncios.<br />
+                Aqui voce encontra os melhores anuncios do brasil!
+            </p>
+        </div>
+
+        <!-- Lado direito com formulário -->
+        <div class="col-md-6 bg-white p-5">
+            <h4 class="mb-3 text-primary">Olá!<br />Seja bem-vindo.</h4>
+            <p class="text-muted">Faça o seu login agora</p>
+
+            <form asp-action="Login" method="post">
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-control form-control-lg border-0 border-bottom border-primary" placeholder="Email" required />
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="senha" class="form-control form-control-lg border-0 border-bottom border-primary" placeholder="Senha" required />
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <a href="#" class="text-decoration-none small text-primary">Esqueceu a sua senha?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill">Login</button>
+            </form>
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="text-danger mt-3">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
+
+            <div class="mt-4 text-center">
+                <a href="#" class="text-decoration-none text-primary">Criar uma conta</a>
+            </div>
+        </div>
+    </div>
+</div>

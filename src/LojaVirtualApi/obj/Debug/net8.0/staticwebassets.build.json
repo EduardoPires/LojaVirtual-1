@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "o7TnvJWHGsOJP9J+/g8FkmcYkxjIbtlNnGllbKQVcfo=",
+  "Source": "LojaVirtualApi",
+  "BasePath": "_content/LojaVirtualApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
